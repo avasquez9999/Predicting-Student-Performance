@@ -1,5 +1,5 @@
 # Predicting-Student-Performance
-#Applied numerous machine learning models to predict student performance.
+#Applied numerous machine learning models to predict student performance and evaluated their performance based on error measures such as RMSE, MSE, MAPE, MAE, and quality of the model
 
 #Applying Machine Learning Models to Predict Student Performance
 **Understanding the Problem**
@@ -26,7 +26,7 @@ Data Splitting: Divide the data into training and testing sets.
 **Implementation:** Use the XGBoost library to train the model.
 **Cross-Validation:**
 Technique: Split the data into multiple folds, train the model on a subset, and evaluate on the remaining fold.
-Implementation: Use scikit-learn's cross_val_score function.
+Implementation: Use sci-kit-learn's cross_val_score function.
 
 **Neural Networks:**
 **Assumption:** Complex relationships between features and the target variable.
